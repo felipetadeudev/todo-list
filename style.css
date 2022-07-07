@@ -1,0 +1,30 @@
+.check-btn {
+    background-color: green;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.delete-btn {
+    background-color: red;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.check-btn img {
+    pointer-events: none;
+}
+
+.delete-btn img {
+    pointer-events: none;
+}
+
+.completed .check-btn {
+    opacity: .5;
+}
+
+.completed li {
+    text-decoration: line-through;
+    border-color: green;
+    color: green;
+    opacity: .5;
+}

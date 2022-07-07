@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col items-center justify-center bg-gray-800 h-screen">
+
+    <main class="max-w-[500px] w-full">
+        <div class="bg-white py-8 px-4 rounded-md shadow-lg flex flex-col gap-6">
+            <h1 class="text-4xl text-center text-gray-900 lowercase font-bold">To-do List</h1>
+            <div class="flex gap-2">
+                <input type="text" placeholder="digite sua tarefa." class="todo-input w-full p-2 rounded-md border-2">
+                <button class="todo-button bg-gray-900 rounded-md px-4 text-white text-3xl">+</button>
+            </div>
+            <ul class="todo-list text-gray-900 lowercase flex flex-col gap-2">
+
+            </ul>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

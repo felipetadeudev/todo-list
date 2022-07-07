@@ -16,6 +16,7 @@ function addTodo(event) {
         </div>
     `
     todoList.appendChild(todoDiv)
+    todoInput.value = ''
 }
 
 function deleteCheck(event) {
